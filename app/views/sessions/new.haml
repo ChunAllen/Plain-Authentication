@@ -1,0 +1,4 @@
+= form_tag sessions_path, method: :post do
+  = email_field_tag :email, nil
+  = password_field_tag :password, nil
+  = button_tag 'Submit'
